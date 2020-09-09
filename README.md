@@ -26,5 +26,23 @@ chmod 600 authorized_keys
 chmod 700 ~/.ssh
 ```
 
-edit /etc/ssh/sshd_config
-add **RSAAut
+vim /etc/ssh/sshd_config
+add **RSAAuthentication yes**
+modify **PublicAuthentication yes**
+
+if  you can login by the pub_keys 
+then 
+you can disable **PasswordAuthentication no**
+
+finally 
+```
+service sshd restart
+```
+
+notices:
+
+About the software using
+
+1. Putty
+2. Xshell
+3. Juice
