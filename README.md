@@ -36,8 +36,13 @@ you can disable **PasswordAuthentication no**
 
 finally 
 ```
+systemctl restart sshd.service
+```
+or
+```
 service sshd restart
 ```
+
 
 notices:
 
