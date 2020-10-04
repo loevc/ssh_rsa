@@ -68,3 +68,9 @@ About the software using
 
 > this you must first to find the identify to fill your private_key up  &  give a name to the identify
 > then choose the quick connect , fill the ip  and choose the identify that you alias just now
+
+**notice:**
+> trans file from server to local
+```
+scp usr@X.X.X.X:/root/.ssh d:\
+```
