@@ -19,4 +19,6 @@ ssh-add id_rsa_github
 ssh -T git@github.com
 ```
 
+5. use once passwd then will not again (if you band the ssh)
+
 
