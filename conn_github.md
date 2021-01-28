@@ -8,14 +8,15 @@ ssh-keygen -C "loevc@github" -t rsa -f id_rsa_github
 ```
 cat id_rsa_github.pub
 ```
-![](IMAGE/Screenshot from 2021-01-27 14-46-52.png)
+![02](IMAGE/Screenshot from 2021-01-27 14-46-52.png)
+
 **copy the public_key to the github's setting ssh .**
 
 3. ssh-add
 ```
 ssh-add id_rsa_github
 ```
-![](IMAGE/Screenshot from 2021-01-27 14-43-40.png)
+![03](IMAGE/Screenshot from 2021-01-27 14-43-40.png)
 
 4. identify the tunnel
 ```
