@@ -2,6 +2,7 @@
 ```
 ssh-keygen -C "loevc@github" -t rsa -f id_rsa_github
 ```
+![generate key](IMAGE/Screenshot%20from%202021-01-27%2014-43-18.png)
 
 2. add the public key to the github  
 ```
